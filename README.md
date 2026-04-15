@@ -1,27 +1,27 @@
-# Minha Jornada com Claude Code
+# My Claude Code Journey
 
-Repositório de aprendizado seguindo o [Claude Code Roadmap](https://roadmap.sh/claude-code).
+A learning repository following the [Claude Code Roadmap](https://roadmap.sh/claude-code).
 
-## Estrutura
+## Structure
 
 ```
 .
-├── 01-introduction/          # O que é Claude Code, CLI, planos e API
-├── 02-ways-to-use/           # CLAUDE.md, skills, tools, modos, modelos
-├── 03-common-usecases/       # Casos de uso práticos
+├── 01-introduction/          # What is Claude Code, CLI, plans and API
+├── 02-ways-to-use/           # CLAUDE.md, skills, tools, modes, models
+├── 03-common-usecases/       # Practical use cases
 ├── 04-manage-context/        # Headless mode, Git Worktrees, prompt caching
-├── 05-command-reference/     # Comandos /slash, atalhos e prefixos
-├── 06-advanced/              # Modelos, agentic loop, subagents, MCP, segurança
-└── claude-code-in-action/    # Projetos práticos demonstrando conceitos
+├── 05-command-reference/     # /slash commands, shortcuts and prefixes
+├── 06-advanced/              # Models, agentic loop, subagents, MCP, security
+└── claude-code-in-action/    # Practical projects demonstrating concepts
 ```
 
-## Progresso
+## Progress
 
 ### Introduction
-- [ ] O que é Vibe Coding?
-- [ ] O que é um Coding Agent?
+- [ ] What is Vibe Coding?
+- [ ] What is a Coding Agent?
 - [ ] Claude CLI
-- [ ] Planos e uso via API
+- [ ] Plans and API usage
 
 ### Ways to Use Claude
 - [ ] CLAUDE.md
@@ -34,22 +34,22 @@ Repositório de aprendizado seguindo o [Claude Code Roadmap](https://roadmap.sh/
 - [ ] Git Worktrees
 - [ ] Thinking modes & Effort
 - [ ] Prompt Caching
-- [ ] Preços do Claude
+- [ ] Claude Pricing
 
 ### Command Reference
-- [ ] Comandos de sessão (`/help`, `/clear`, `/exit`, `/status`, `/usage`, `/cost`, `/export`, `/rewind`, `/context`, `/compact`, `/memory`)
-- [ ] Comandos de configuração (`/init`, `/config`, `/permissions`, `/model`, `/doctor`, `/agents`, `/plan`, `/mcp`)
+- [ ] Session commands (`/help`, `/clear`, `/exit`, `/status`, `/usage`, `/cost`, `/export`, `/rewind`, `/context`, `/compact`, `/memory`)
+- [ ] Configuration commands (`/init`, `/config`, `/permissions`, `/model`, `/doctor`, `/agents`, `/plan`, `/mcp`)
 - [ ] Session Events (hooks: `SessionStart`, `SessionEnd`, `PreToolUse`, `PostToolUse`, `UserPromptSubmit`)
-- [ ] Atalhos e prefixos (`!`, `\`, `@`, `Shift+Tab`, `Ctrl+C`, `Esc`, `Ctrl+R`, `Esc+Esc`)
+- [ ] Shortcuts and prefixes (`!`, `\`, `@`, `Shift+Tab`, `Ctrl+C`, `Esc`, `Ctrl+R`, `Esc+Esc`)
 
 ### Advanced
-- [ ] Quando usar Opus, Sonnet ou Haiku?
+- [ ] When to use Opus, Sonnet or Haiku?
 - [ ] Agentic Loop
 - [ ] Subagents
 - [ ] MCP (Model Context Protocol)
-- [ ] Boas práticas de segurança
-- [ ] Escalando o Claude (`/compact`, `/clear`, subagents e hooks)
+- [ ] Security best practices
+- [ ] Scaling Claude (`/compact`, `/clear`, subagents and hooks)
 
-## Referências
-- [Roadmap oficial](https://roadmap.sh/claude-code)
-- [Documentação Claude Code](https://docs.anthropic.com/en/docs/claude-code/overview)
+## References
+- [Official Roadmap](https://roadmap.sh/claude-code)
+- [Claude Code Documentation](https://docs.anthropic.com/en/docs/claude-code/overview)
